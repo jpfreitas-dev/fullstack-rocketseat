@@ -1,0 +1,130 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-default: #f5f4f0;
+  --border-primary: #d9d9d9;
+  --text-primary: #1b1b1b;
+  --text-secondaryt: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+}
+
+body {
+  background-color: #29292e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: var(--background-default);
+  width: 1280px;
+  height: 3279px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 88px 80px 48px 80px;
+}
+
+main #next-travel .headline {
+  color: var(--text-headline);
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+main #next-travel h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+main #next-travel #subtitle {
+  font-style: italic;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 44px;
+}
+
+main #title-list .headline {
+  color: var(--text-headline);
+  margin-top: 64px;
+  margin-bottom: 2px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+main #title-list h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+main #title-list p {
+  margin-bottom: 64px;
+}
+
+main #content-list{
+  margin-bottom: 40px;
+}
+
+main #content-list #list .card-travel {
+  margin-top: 48px;
+}
+
+main #content-list #list .card-travel h3 {
+  margin: 20px 0 4px 6px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+main #final-paragraph{
+  margin-top: 40px;
+  text-align: center;
+}
+
+img {
+  border-radius: 28px;
+  width: 100%;
+}
+
+.divider {
+  border: solid 1px var(--border-primary);
+}
+
+.history {
+  color: var(--accent-blue);
+}
+
+.couples {
+  color: var(--accent-purple);
+}
+
+.family {
+  color: var(--accent-pink);
+}
+
+.budget {
+  color: var(--accent-orange);
+}
+
+span {
+  font-weight: bold;
+}
+
+footer{
+  margin-top: 65px;
+  text-align: center;
+  font-family: "Alice", sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
